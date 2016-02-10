@@ -2,10 +2,12 @@
 
 <html>
 
-<head></title>All About Me, Melanie Greene</title></head> 
+<head></title>All About Me, Melanie Greene</title>
 
-<link href = "MGreene.css" rel= "stylesheet" type = "text/css"></link>
+	<link href = "MGreene.css" rel= "stylesheet" type = "text/css"></link>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
 
+</head> 
 	<body>
 <br/>
 <br/>
@@ -32,7 +34,10 @@
 		
 		<h1>Am</h1>
 		
-		<center><img id ="eyes" src = "EyesZoomed.png"></center>
+
+		<center><img id = "img" src ="eyesclosed.jpg"/></center><script src = "script.js"></script>
+		 
+
 <br/>
 		<center><h2> I have big brown eyes and even bigger dreams!</h2></center>
 <br/>
@@ -54,19 +59,29 @@
 			<center><img id ="thinking" src ="http://3.bp.blogspot.com/-SYQELqAfFVs/VQKEtPi4w_I/AAAAAAAABBk/e8uJeXtJOQs/s1600/thinking-happy-face.png"></center>
 
 
-			<p> Entering college I was so undecided. I had no idea what I wanted to pursue. Where did I see myself? It was rough. In my Fall 2014 semester I took Introduction to Programming I, Web Design and Digital Media, as well as Web Design for Non-Profits. </p> 
+			<p> Entering college I was so undecided. I had no idea what I wanted to pursue. Where did I see myself? It was rough. In my Fall 2014 semester I took the following classes:</p>
+			<p id="classes"></p>
+			<!--w3schools inspired -->
+			<script>
+			 	var class1 ="Introduction to Programming I"
+			 	var class2 ="Web Design and Digital Media"
+			 	var class3 ="Web Design for Non-Profits" 
+			 	document.getElementById("classes").innerHTML = class1 + ", "+ class2 + ", and " + class3 + ".";
+			 </script>
 
-			<p> And..... I discovered something. Something I never knew I could do. I liked learning how to code. I felt like I was discovering me. It was eye opening. </p>
+			
+			<p>And..... I discovered something. Something I never knew I could do. I liked learning how to code. I felt like I was discovering me. It was eye opening. </p>
+			
+	
 
 			<p> My Web Design for Non-Profits course changed my life. I worked with an individual who had a disability (Down Syndrome) to create a project based on his interests and abilities. We made a video game using an app on the iPad called GamePress and documented our time together by creating an iMovie.</p>
 
 			<p> This experience blossomed my passion for giving back to others. I have worked as a mentor for two different individuals on the Autism Spectrum where I identified educational technologies tailored to address the respective communication challenges of two students. I utilized games to expand vocabulary and improve word usage for both students. </p>
 
-			<p> Over this past summer I worked on a research project with my professor. We researched wearable devices that would enable individuals with intellectual and developmental disabilities to proactively manage their health care choices. </p>
+			<p> Over this past summer I worked on a research project with my professor. We researched wearable devices that would enable individuals with intellectual and developmental disabilities to proactively manage their health care choices. </p>			
 
-
-
-
+			<p id = "discovery"> I discovered a passion for technology. </p>
+			<script src ="script.js"></script>
 
 	</body>
 

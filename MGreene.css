@@ -28,14 +28,6 @@ h1{
 	color: #6A5ACD;
 }
 
-/*p {
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 100px;
-    margin-left:100px
-
-}*/
 
 
 #pacepic{
@@ -44,7 +36,8 @@ h1{
 	width: 500px;
 }
 
-#eyes{
+
+#img{
 	height:150px;
 	width:500px;
 }
@@ -54,15 +47,21 @@ h1{
 	width:200px;
 
 }
-img {
+
+#lion{ 
+	height:300px;
+	width:450px;
+	/* got this idea from stackoverflow... I
+	wanted to hide it */
+	display: none;
+}
+
+.Disney{
 
 	width:450px;
 	height:300px;
 
 }
-
-
-
 
 
 .tablepictures
@@ -73,7 +72,7 @@ img {
 
 table, td{
 
-	border: #70b8ff ;
+	border: #70b8ff;
 }
 
 
